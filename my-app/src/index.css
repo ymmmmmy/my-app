@@ -1,0 +1,40 @@
+@import url('antd/dist/antd.css');
+/* 清除浏览器默认设置 */
+
+#root,.app{
+    height: 100%;
+}
+
+.app{
+    display: flex;
+    background-color: #eff2f4;
+}
+
+.m-slide{
+    width: 256px;
+    height: 100%;
+}
+
+.m-content{
+    flex:1;
+    height: 100%;
+    overflow: auto;
+}
+.ant-menu{
+    height: 100%;
+}
+.m-operate{
+    text-align: right;
+    padding-bottom: 10px;
+}
+.m-readyonly-modal .ant-form-item{
+    pointer-events: none;
+}
+
+.m-readyonly-modal .ant-modal-footer{
+    display: none;
+}
+
+.m-filter{
+    margin: 10px 0;
+}
